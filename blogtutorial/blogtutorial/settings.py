@@ -85,16 +85,30 @@ WSGI_APPLICATION = "blogtutorial.wsgi.application"
 #    }
 #}
 
+from decouple import Config, Csv
+config = Config()
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'akondb',
-        'USER': 'root',
-        'PASSWORD': 'Winner12345@',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT'),
     }
 }
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'akondb',
+#        'USER': 'root',
+#        'PASSWORD': 'Winner12345@',
+#        'HOST': 'localhost',
+#        'PORT': '3306',
+#    }
+#}
 
 
 
