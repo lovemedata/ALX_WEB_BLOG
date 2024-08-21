@@ -1,9 +1,14 @@
 **Blog Project**
 
+
 *Overview*
+
+
 This project is a blog application developed as part of the ALX software engineer program. It provides functionality to post articles, delete posts, like and unlike posts, log in, and register.
 
 **Features**
+
+
 Post Articles: Users can create and publish new blog posts.
 Delete Posts: Users can delete their own posts.
 Like/Unlike Posts: Users can like or unlike posts to express their appreciation.
@@ -13,6 +18,8 @@ Register: Users can create a new account to access the blog’s features.
 Installation: Python, Django, HTML
 
 **Usage**
+
+
 Posting Articles
 
 The application project by default is accessible on windows desktop at http://127.0.0.1:8000/
