@@ -17,14 +17,15 @@ Posting Articles
 
 The application project by default is accessible on windows desktop at http://127.0.0.1:8000/
 
-Login/Register: Navigate to /accounts/login/ to log in or /accounts/register/ to create a new account.
+Login Page: http://127.0.0.1:8000/accounts/login/
 
-Create a Post: Once logged in, go to the post creation page (URL path should be something like /post/create/) and submit your article.
+Register Page: http://127.0.0.1:8000/accounts/register/
 
-Deleting Posts
-Navigate to your post’s detail page and click the delete button (usually located in the post’s options menu).
-Liking/Unliking Posts
-On the post detail page, click the like button to like a post, or the unlike button to remove your like.
+Create a Post/Admin Page: http://127.0.0.1:8000/admin/
+
+Deleting Posts: Navigate to your post’s detail page and click the delete button at the top of your post.
+
+Liking/Unliking Posts: On the post detail page, click the like/unlike button below the post to like or unlike a post.
 
 **Contribution**
 For continous learning, this is still open to improvement. If you want to contribute to this project, please fork the repository and submit a pull request with your changes.
